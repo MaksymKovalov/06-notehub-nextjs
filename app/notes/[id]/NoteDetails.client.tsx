@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useParams } from 'next/navigation';
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query';
-import { fetchNoteById, deleteNote } from '@/lib/api/api';
+import { fetchNoteById, deleteNote } from '@/lib/api';
 import { useRouter } from 'next/navigation';
 import Modal from '@/components/Modal/Modal';
 import NoteEditForm from './NoteEditForm';
