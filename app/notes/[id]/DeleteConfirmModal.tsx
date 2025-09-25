@@ -24,7 +24,7 @@ const DeleteConfirmModal = ({
         <div className={css.icon}>⚠️</div>
         <h2 className={css.title}>Delete Note</h2>
         <p className={css.message}>
-          Are you sure you want to delete the note <strong>"{noteTitle}"</strong>?
+          Are you sure you want to delete the note <strong>&quot;{noteTitle}&quot;</strong>?
         </p>
         <p className={css.warning}>
           This action cannot be undone.
